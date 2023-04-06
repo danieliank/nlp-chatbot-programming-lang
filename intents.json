@@ -1,0 +1,14 @@
+{
+  "intents": [
+    {
+      "tag": "grreetings",
+      "patterns": ["hi", "hello", "halo"],
+      "responses": ["Hello! Welcome to ChatMe!", "Hello World"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "farewell"],
+      "responses": ["Byee", "Thank you!"]
+    }
+  ]
+}
