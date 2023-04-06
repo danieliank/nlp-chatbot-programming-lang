@@ -1,7 +1,7 @@
 {
   "intents": [
     {
-      "tag": "grreetings",
+      "tag": "hello",
       "patterns": ["hi", "hello", "halo"],
       "responses": ["Hello! Welcome to ChatMe!", "Hello World"]
     },
