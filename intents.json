@@ -3,12 +3,67 @@
     {
       "tag": "hello",
       "patterns": ["hi", "hello", "halo"],
-      "responses": ["Hello! Welcome to ChatMe!", "Hello World"]
+      "responses": ["Hello! Welcome to ChatMe!", "Hello World"],
+      "context_set": ""
     },
     {
       "tag": "goodbye",
       "patterns": ["bye", "goodbye", "farewell"],
       "responses": ["Byee", "Thank you!"]
+    },
+    {
+      "tag": "website",
+      "patterns": ["web", "website", "browser"],
+      "responses": [
+        "You can use HTML, CSS and Javascript for the front-end and php for the back-end",
+        "I recommend you to use Laravel or React.js Framework for both front-end and back-end"
+      ]
+    },
+    {
+      "tag": "mobile",
+      "patterns": ["android", "mobile", "handphone"],
+      "responses": [
+        "I can recommend you to use Java to make application for mobile",
+        "I can recommend you to use Kotlin to make mobile application",
+        "I can recommend you to use Flutter to make application for mobile"
+      ]
+    },
+    {
+      "tag": "ios",
+      "patterns": ["apple", "iphone", "ipad", "ios"],
+      "responses": ["I can recommend you to use Swift"]
+    },
+    {
+      "tag": "game",
+      "patterns": ["game", "3d", "vr", "ar"],
+      "responses": [
+        "I recommend you to use C++",
+        "I recommend you to use Python",
+        "You can use C#",
+        "You can use Java"
+      ]
+    },
+    {
+      "tag": "Desktop",
+      "patterns": ["pc", "laptop", "computer", "desktop"],
+      "responses": [
+        "I recommend you to use C++",
+        "You can use C#",
+        "You can use Java"
+      ]
+    },
+    {
+      "tag": "ai",
+      "patterns": [
+        "machine learning",
+        "ai",
+        "nlp",
+        "recognition",
+        "detection",
+        "prediction",
+        "data"
+      ],
+      "responses": ["I recommend you to use Python", "You can use Ruby"]
     }
   ]
 }
